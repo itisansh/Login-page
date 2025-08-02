@@ -16,13 +16,15 @@
     >
       <div class="p-5 flex flex-col justify-center items-center min-h-screen">
         <div
-          style="border-color: rgba(255, 255, 255, 0.2)" class="border  border-gray-200 rounded-xl p-5 w-[350px] flex flex-col justify-center items-center backdrop-blur-lg shadow-xl hover:scale-102 duration-200  "
+          style="border-color: rgba(255, 255, 255, 0.2)"
+          class="border border-gray-200 rounded-xl py-5 px-4 sm:px-6 lg:px-8 w-full max-w-sm mx-auto flex flex-col justify-center items-center backdrop-blur-lg shadow-xl hover:scale-101 duration-200"
         >
           <h2 class="text-white text-3xl font-extrabold m-5">Login</h2>
           <form class="w-full py-[20px] space-y-1.5" action="">
             <div class="relative w-full">
               <input
-                style="border-color: rgba(255, 255, 255, 0.2)" class="border text-white shadow-2xl outline-none w-full mb-5 py-1.5 p-3 backdrop-blur-3xl placeholder-white rounded-3xl "
+                style="border-color: rgba(255, 255, 255, 0.2)"
+                class="border text-white shadow-2xl outline-none w-full mb-5 py-1.5 p-3 backdrop-blur-3xl placeholder-white rounded-3xl"
                 type="text"
                 placeholder="Username"
               />
@@ -32,7 +34,8 @@
             </div>
             <div class="relative">
               <input
-                 style="border-color: rgba(255, 255, 255, 0.2)" class="border placeholder-white text-white mb-2 shadow-2xl outline-none w-full py-1.5 p-3 rounded-3xl border-gray-200"
+                style="border-color: rgba(255, 255, 255, 0.2)"
+                class="border placeholder-white text-white mb-2 shadow-2xl outline-none w-full py-1.5 p-3 rounded-3xl border-gray-200"
                 type="password"
                 placeholder="Password"
               />
@@ -41,24 +44,28 @@
               ></i>
             </div>
 
-            <div class="text-white relative gap-20 text-sm mb-5">
+            <div
+              class="text-white flex justify-between items-center text-sm mb-5"
+            >
               <label for="">
-
-                <input class="" type="checkbox" /> Remember me
+                <input class="relative top-[2px]" type="checkbox" /> Remember me
               </label>
 
-              <a href="" class="absolute top-0 right-0">Forgot Password?</a>
+              <a href="">Forgot Password?</a>
             </div>
             <button
-              style="border-color: rgba(255, 255, 255, 0.2)" class="border font-semibold shadow-2xl border-gray-600 w-full py-1.5 rounded-3xl text-[#333] bg-white hover:bg-gray-200 transition-colors ease-in-out duration-250 cursor-pointer"
+              style="border-color: rgba(255, 255, 255, 0.2)"
+              class="border font-semibold shadow-2xl border-gray-600 w-full py-1.5 rounded-3xl text-[#333] bg-white hover:bg-gray-200 transition-colors ease-in-out duration-250 cursor-pointer"
               type="submit"
             >
               Login
             </button>
           </form>
           <div class="mb-5 w-full text-white">
-            <p class="text-sm text-gray-200 text-center">Don't have an account?
-            <a class="font-bold text-white" href="">Register</a> </p>
+            <p class="text-sm text-gray-200 text-center">
+              Don't have an account?
+              <a class="font-bold text-white" href="">Register</a>
+            </p>
           </div>
         </div>
       </div>
